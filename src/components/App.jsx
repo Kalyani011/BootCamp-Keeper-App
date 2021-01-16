@@ -4,6 +4,8 @@ import Footer from "./Footer.jsx";
 import CreateArea from "./CreateArea.jsx";
 import Note from "./Note.jsx";
 import notes from "../notes.js";
+import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
+import ThreeDRotation from '@material-ui/icons/ThreeDRotation';
 
 function App(){
   const [notes, setNotes] = useState([]);
